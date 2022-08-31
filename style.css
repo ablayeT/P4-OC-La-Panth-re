@@ -11,11 +11,13 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    color: red;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+
 }
 
 #page-loading-blocs-notifaction {
@@ -37,24 +39,33 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    
+}
+.keywords{
+    color:black;
+    font-size:1px;
 }
 
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
     
+    
 }
 
 .bloc-lg {
     padding: 100px 50px;
+    
 }
 
 .bloc-md {
     padding: 50px;
+
 }
 
 .bloc-sm {
     padding: 20px 50px;
+    
 }
 
 .bg-center,
@@ -71,10 +82,12 @@ a:hover {
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
+    background: red                                                                                                                                                                                        ;
 }
 
 .bg-repeat {
     background: repeat;
+    
 }
 
 .bg-t-edge {
@@ -91,13 +104,12 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
+    width: auto;
+    margin: 20px;
+    
+    
 }
 
 .d-bloc {
@@ -117,7 +129,7 @@ a:hover {
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: rgba(173, 13, 13, 0.2);
 }
 
 .d-bloc .a-btn,
@@ -134,7 +146,8 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(26, 22, 22);
+    
 }
 
 .d-bloc .a-btn:hover,
@@ -255,7 +268,9 @@ a:hover {
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
+
 }
+
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
@@ -267,21 +282,33 @@ a:hover {
 
 .voffset {
     margin-top: 30px;
+
+
+    
+    
 }
 
 .voffset-lg {
     margin-top: 80px;
+    background-color:lightgray; 
+
+    
 }
 
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    
+    
+    
 }
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #bloc-1-hero h1 {
@@ -290,6 +317,11 @@ a:hover {
 
 .navbar {
     margin-bottom: 0;
+    background-color: #f3976c;
+    width: auto;
+   
+    
+  
     
 
 }
@@ -303,27 +335,32 @@ a:hover {
     line-height: 44px;
     width: 100%;
     height: 100px;
+    
+
+
 }
 
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
-    width: 60%;
+    
+    
 }
 
-.navbar-brand img  {
-    min-width: 100px;
+.navbar-header > a > img  {
+    height:98px;   
+    width: 50%;
 }
-
-.nav-center .navbar-brand img {
-    margin: 0;
+.navbar-header{
+    width: 100%;
 }
 
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
+    
     
     }
 
@@ -334,22 +371,26 @@ a:hover {
     
 }
 
-.navbar-nav .open .dropdown-menu > li > a {
+
+.bar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    
 }
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: orange;
+    background: white;
+    cursor: pointer;
+    
 }
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0px;
+
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -359,22 +400,24 @@ a:hover {
 
 .nav-invert .navbar .nav {
     float: left;
+    
 }
 
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
     position: relative;
-    z-index: 2;
+    
 }
 
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
+        top: 35%;
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+        
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -402,10 +445,12 @@ a:hover {
         right: 0;
         margin-right: 0px;
         margin-top: 20px;
+        
     }
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+        
     }
 }
 
@@ -413,15 +458,18 @@ a:hover {
     background: none!important;
     display: block;
     padding: 14px 15px;
+    ;
 }
 
 nav .caret {
     margin: 0 5px;
+    
 }
 
 .dropdown-menu .dropdown-menu {
     top: -8px;
     left: 100%;
+    
 }
 
 .dropdown-menu .dropmenu-flow-right {
@@ -444,6 +492,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    color: black;
 }
 
 .mg-lg {
@@ -480,9 +529,14 @@ button {
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
+.page-container {
+    background-color: lightgray;
+}
 
 .icon-md {
     font-size: 30px!important;
+    margin: 10px;
+    
 }
 
 .icon-lg {
@@ -657,7 +711,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+
 }
 
 .container {
@@ -665,11 +719,13 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 58px;
+    
 }
 
 .hero-bloc-text-sub {
     font-size: 36px;
+    
 }
 
 .statement-bloc-text {
@@ -689,7 +745,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
+    }
 
 .h1 {
     font-size: 20px;
@@ -698,7 +754,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -708,11 +764,13 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: #000000;
 }
 
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+
 }
 
 h3 {
@@ -741,25 +799,59 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.black {
+    color: black!important;
+}
+
+.col-sm-4{
+    color: black;
+    font-size: 15px;
+    
+}
+.col-sm-4 > h3{
+    font-size: 20px;
+}
+.col-sm-4 > ul > li> a{
+    color:#000000;
+    font-size: 15px;
+}
+
+.text-center{
+    font-size: 15px;
+     color: #000000!important;
+    
+}
+.image-resize-mode{
+    width: 20%;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    
+}
+.portfolio-row > .col-sm-6 > a > img {
+    border-radius: 20px;
+    width: 100%;
 }
 
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    border: 1px solid none;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 10px;
+    color: black;
 }
+
+
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: white;
     padding: 40px 40px 40px 40px;
 }
 
@@ -769,7 +861,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: lightgray;
 }
 
 .bgc-dark-slate-blue {
@@ -781,25 +873,30 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#F3976C!important;
+    font-size: 25px;
+
+    width: 99%;
+    
+    
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color:#000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: lightgray!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: gray!important;
 }
 
 .ltc-atomic-tangerine {
@@ -821,10 +918,15 @@ h4 {
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
+
 }
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    width:auto;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .bg-presentation {
@@ -994,7 +1096,6 @@ h4 {
     .bloc-md {
         padding-left: 0;
         padding-right: 0;
-        
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,

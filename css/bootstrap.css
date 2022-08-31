@@ -1659,6 +1659,7 @@ mark {
 
 .text-center {
     text-align: center
+    
 }
 
 .text-justify {
@@ -2013,6 +2014,7 @@ pre code {
 .row {
     margin-right: -15px;
     margin-left: -15px
+    
 }
 
 .col-lg-1,
@@ -5146,6 +5148,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .container>.navbar-header {
         margin-right: 0;
         margin-left: 0
+
     }
 }
 
@@ -5200,7 +5203,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-brand>img {
-    display: block
+    display: flex
+    
 }
 
 @media (min-width:768px) {
@@ -5246,12 +5250,14 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-nav {
     margin: 7.5px -15px
+
 }
 
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 20px
+    
 }
 
 @media (max-width:767px) {
