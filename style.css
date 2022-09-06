@@ -25,12 +25,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{font-family:"helvetica";font-weight:400}.contai
 .imgPresentation{
     width: 100%!important;
     height: 250px;
-}*/
+}
 
 .sizLoGO{
     width: 30%;
     height: auto;
-}
+}*/
+
+
 .bloc{
     display: grid;
     grid-template-areas: center;
