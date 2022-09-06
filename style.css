@@ -21,11 +21,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{font-family:"helvetica";font-weight:400}.contai
 .navbar-header{
     width: 100%;
     background-color: #f3976c;
-}
+}/*
 .imgPresentation{
     width: 100%!important;
     height: 250px;
-}
+}*/
 
 .sizLoGO{
     width: 30%;
