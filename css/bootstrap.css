@@ -1437,7 +1437,7 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    width: 100%!important;
+    width: 100%!;
     height: auto
 }
 
@@ -2084,7 +2084,7 @@ pre code {
 .col-xs-7,
 .col-xs-8,
 .col-xs-9 {
-    float: left
+    float: cen
 }
 
 .col-xs-12 {
@@ -5196,6 +5196,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     padding: 15px 15px;
     font-size: 18px;
     line-height: 20px
+    
 }
 
 .navbar-brand:focus,
