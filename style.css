@@ -95,11 +95,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -864,13 +859,8 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
+
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
@@ -1154,7 +1144,7 @@ form{
 .buttonInfo > button{
     background:#F3976C;
     border-radius: 10px;
-    width: 15%;
+    width: 25%;
 
 }
 
@@ -1274,6 +1264,12 @@ footer{
     flex-direction: column;
     align-items: center;
     width: 100%;
+   }
+   .formulaire{
+    width: auto;
+   }
+   .buttonInfo > button{
+    width: auto;
    }
 }
 
