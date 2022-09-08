@@ -1436,8 +1436,6 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
-    width: 100%!;
     height: auto
     
 }
@@ -2335,7 +2333,7 @@ pre code {
         width: 33.33333333%
     }
     .col-sm-3 {
-        width: 25%
+        width: 50%
     }
     .col-sm-2 {
         width: 16.66666667%
@@ -3677,6 +3675,7 @@ textarea.input-lg {
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px
+    
 }
 
 .btn.active.focus,
@@ -4253,7 +4252,7 @@ input[type=submit].btn-block {
 }
 
 .collapse {
-    display: none
+    display: block
 }
 
 .collapse.in {
@@ -4307,7 +4306,7 @@ tbody.collapse.in {
 .dropdown-menu {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: right;
     z-index: 1000;
     display: none;
     float: left;
@@ -4340,7 +4339,7 @@ tbody.collapse.in {
 }
 
 .dropdown-menu>li>a {
-    display: block;
+    display: bloc;
     padding: 3px 20px;
     clear: both;
     font-weight: 400;
@@ -5384,6 +5383,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
         -webkit-box-shadow: none;
         box-shadow: none
     }
+    
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -5529,6 +5529,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover {
         color: #ccc;
         background-color: transparent
+    }
+    .nav>li>a {
+        display: none;
     }
 }
 

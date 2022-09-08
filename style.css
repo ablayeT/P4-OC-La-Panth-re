@@ -200,7 +200,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(150, 23, 23, 0.5);
     
 }
 
@@ -289,9 +289,6 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-    font-size: 32px;
-}
 
 .navbar {
     margin-bottom: 0;
@@ -449,6 +446,7 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    
 }
 
 .btn {
@@ -665,7 +663,10 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
     
 }
 
@@ -688,8 +689,11 @@ p {
 }
 
 .tight-width-whitespace {
+    display: flex;
+    justify-content: center;
     max-width: 600px;
     margin: auto auto auto auto;
+
 }
 
 .h1 {
@@ -709,6 +713,32 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+.col-sm12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col-sm12 > .social {
+    display: flex; 
+    gap: 3rem;
+    justify-items: center;
+    width: 100%;
+
+}
+.col-sm12 > .social > a > span{
+    margin: 10px;
+}
+@media  screen and (max-width: 768px){
+
+ .col-sm12 > .social{
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      
+    }
+    
 }
 
 h2 {
@@ -1088,15 +1118,17 @@ h4 {
     margin-bottom: 20px;
     min-width: 10%;
     width: 100%;  
-    border-top: px solid;
+    
 }
 
 .fontSizeFormulaire{
     font-size: 15px;
+    
 }
 form{
     display: flex;
     justify-content: center;
+    
 }
 
 .formulaire{
@@ -1104,12 +1136,12 @@ form{
     flex-direction: row;
     justify-content: center;
     min-width: 10%;
-    background:lightgray;
+    background:#F3976C;
     margin: 40px;
     padding: 20px;
     border-radius: 20px;
     width: 50%;
-    border-top: 5px solid #F3976C;
+    
 }
 
 .buttonInfo{
@@ -1117,12 +1149,13 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 5px solid ;
+    
 }
 .buttonInfo > button{
-    background: lightgray;
+    background:#F3976C;
     border-radius: 10px;
-    border-top: 3px solid wheat;
+    width: 15%;
+
 }
 
 input, textarea{
@@ -1135,6 +1168,7 @@ input, textarea{
 label{
     padding: 12px 12px 12px 0;
     display: block;
+    color: #000!important;
 }
 .formGroup1{
     float: left;
