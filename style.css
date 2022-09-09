@@ -1335,5 +1335,8 @@ footer{
 }
 .col-sm-12 > img{
     border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
     
 }
