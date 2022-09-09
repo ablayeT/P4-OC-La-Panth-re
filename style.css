@@ -1324,3 +1324,9 @@ footer{
     flex-direction: column;
 
 }
+.col-sm-4 > ul > li > a{
+    font-size: 20px;
+}
+.col-sm-12 > img{
+    border-radius: 40px;
+}
