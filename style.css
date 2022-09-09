@@ -724,7 +724,6 @@ p {
 .col-sm12 > .social > a > span{
     margin: 10px;
 }
-
 @media  screen and (max-width: 768px){
 
  .col-sm12 > .social{
@@ -732,6 +731,7 @@ p {
        flex-direction: column;
         align-items: center;
         gap: 2rem;
+      
     }
     
 }
@@ -867,7 +867,7 @@ h4 {
     border-radius: 10px;
     margin: 10px;
     width: 85%;
-    height: 400px;
+    height: 410px;
 }
 
 .bg-presentation {
@@ -1325,7 +1325,7 @@ footer{
 
 }
 .col-sm-4 > ul > li > a{
-    font-size: 18px;
+    font-size: 15px;
 
 }
 .col-sm-4 > ul > li {
@@ -1333,4 +1333,5 @@ footer{
 }
 .col-sm-12 > img{
     border-radius: 40px;
+    
 }
